@@ -1,5 +1,5 @@
 # The script reads the Electric Power Consumption dataset, obtains a subset, 
-# and generates a Line Graph as 'plot4.png' file as required.
+# and generates four plots in a single 'plot4.png' file as required.
 #
 # PRE-REQUISITES: 
 #   (1) This script expects the zipped file 'exdata-data-household_power_consumption.zip'
