@@ -22,7 +22,7 @@ gen_plot1 <- function() {
     # open the PNG device with a custom background
     png(file = "plot1.png", bg = "white");
     # generating plot with custom color, title, and X-axis label
-    hist(pwrd$globalactivepower, col = "red", main = "Global Active Power", 
+    hist(reqdata$globalactivepower, col = "red", main = "Global Active Power", 
             xlab="Global Active Power (kilowatts)");
     # closing the PNG device
     dev.off();
